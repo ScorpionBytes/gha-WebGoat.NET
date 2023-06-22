@@ -16,7 +16,7 @@ jobs:
       - name: Setup Java
         uses: actions/setup-java@v1     # Required for ScanCentral Client and FoD Uploader
         with:
-          java-version: 1.8
+          java-version: 11
       - name: Setup Fortify ScanCentral Client
         uses: fortify-actions/setup-scancentral-client@v1
       - name: Setup Fortify on Demand Uploader
